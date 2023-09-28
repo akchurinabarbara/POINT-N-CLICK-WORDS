@@ -1,27 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
 import levels from './data/levels.json';
-import WordCard from './components/WordCard'
-import LevelCard from "./components/LevelCard";
+import LevelPanel from "./components/LevelPanel";
+import MainMenu from "./MainMenu";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import GameField from "./GameField";
+import React from "react";
 
-function Levels()
-{
-    let content = []
-    for (let i= 0; i < levels.length; i++) {
-        content.push(<LevelCard level={i+1}/>)
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <MainMenu/>
+    },
+    {
+        path: "/game",
+        element: <GameField/>
     }
-
-    return content;
-}
+]);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <Levels/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <React.StrictMode>
+                    <RouterProvider router={router}/>
+                </React.StrictMode>
+            </header>
+        </div>
+    );
 }
 
 export default App;

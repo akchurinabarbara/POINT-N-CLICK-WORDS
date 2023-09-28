@@ -1,7 +1,14 @@
+import './LevelCard.css';
 import React from "react";
-class WordCard extends React.Component {
+class LevelCard extends React.Component {
     render() {
-        return <h1>{this.props.level}</h1>
+        return <a href="/game">{this.props.level}
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
     }
 }
- export default  WordCard
+ export default  LevelCard
