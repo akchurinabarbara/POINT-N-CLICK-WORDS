@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "point-n-click-words-game", "point-n-click-words-game\point-n-click-words-game.njsproj", "{324EE0EE-742C-47B8-A81D-60487652FA72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324EE0EE-742C-47B8-A81D-60487652FA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324EE0EE-742C-47B8-A81D-60487652FA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324EE0EE-742C-47B8-A81D-60487652FA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324EE0EE-742C-47B8-A81D-60487652FA72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AE418F7-14C2-46E1-8D19-C059FBA78991}
+	EndGlobalSection
+EndGlobal

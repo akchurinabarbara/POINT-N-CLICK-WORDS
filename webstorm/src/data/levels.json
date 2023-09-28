@@ -1,0 +1,38 @@
+[
+   {
+     "question": "\"и\"",
+     "time": "30",
+     "words": [
+       { "word": "вор", "isRight": "false" },
+       { "word": "липа", "isRight": "true" },
+       { "word": "нога", "isRight": "false" },
+       { "word": "рука", "isRight": "false" },
+       { "word": "сани", "isRight": "true" },
+       { "word": "вилы", "isRight": "true" }
+     ]
+   },
+   {
+     "question": "\"а\"",
+     "time": "30",
+     "words": [
+       { "word": "солнце", "isRight": "false" },
+       { "word": "луна", "isRight": "true" },
+       { "word": "волна", "isRight": "true" },
+       { "word": "гребень", "isRight": "false" },
+       { "word": "ложь", "isRight": "false" },
+       { "word": "звезда", "isRight": "true" }
+     ]
+   },
+   {
+     "question": "\"б\"",
+     "time": "30",
+     "words": [
+       { "word": "бит", "isRight": "true" },
+       { "word": "октава", "isRight": "false" },
+       { "word": "ракета", "isRight": "false" },
+       { "word": "комета", "isRight": "false" },
+       { "word": "яблоко", "isRight": "true" },
+       { "word": "бахилы", "isRight": "true" }
+     ]
+   }
+]
