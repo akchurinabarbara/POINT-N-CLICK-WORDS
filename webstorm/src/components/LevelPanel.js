@@ -7,7 +7,7 @@ class LevelPanel extends React.Component {
     generateCards() {
         let content = [];
         for(let i=0; i< this.props.count; i++){
-            content.push( <div><LevelCard level={i + 1}/></div>)
+            content.push( <div><LevelCard levelId={i} key={i}/></div>)
         }
 
         return content;

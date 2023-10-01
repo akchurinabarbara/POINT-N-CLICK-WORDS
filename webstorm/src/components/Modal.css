@@ -1,0 +1,29 @@
+.modal-window {
+    position: fixed;
+    border-radius: 12px;
+    top: 15vw;
+    left: 10vw;
+    right: 10vw;
+    bottom: 15vw;
+    border: 3px outset #67538c;
+    display: table-cell;
+    vertical-align: middle;
+    background: #451880;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    align-content: center;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.modal-window-content{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
