@@ -115,6 +115,28 @@
     transition-delay: 0.25s;
 }
 
+.button-menu-disable {
+    border-radius: 12px;
+    border: 3px outset #8b8f91;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+    font-family: verdana;
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+    background:linear-gradient(160deg, #ff4277, #ff0066);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+
+    transition: 0.2s;
+}
+
 .button-default {
     border-radius: 12px;
     border: 3px outset #8b8f91;
@@ -195,3 +217,4 @@
     height: 100%;
     width: 100%;
 }
+

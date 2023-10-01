@@ -1,3 +1,0 @@
-D:\Users\Акчурина Варвара\Documents\GitHub\POINT-N-CLICK-WORDS\point-n-click-words-game\point-n-click-words-game\obj\Debug\point-n-click-words-game.njsproj.AssemblyReference.cache
-D:\Users\Акчурина Варвара\Documents\GitHub\POINT-N-CLICK-WORDS\point-n-click-words-game\point-n-click-words-game\obj\Debug\point-n-click-words-game.njsproj.CoreCompileInputs.cache
-D:\Users\Акчурина Варвара\Documents\GitHub\POINT-N-CLICK-WORDS\point-n-click-words-game\point-n-click-words-game\bin\Microsoft.NodejsTools.WebRole.dll

@@ -94,6 +94,10 @@ function GameField(props) {
         if(userRightAnswer === allRightAnswer - 1)
         {
             setIsWin(true);
+            let currentLevel = localStorage.getItem("currentLevel");
+            if(Number(levelId) + 1 > currentLevel) {
+                localStorage.setItem("currentLevel", Number(levelId) + 1);
+            }
             openModal();
         }
     }
