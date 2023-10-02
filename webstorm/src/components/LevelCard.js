@@ -4,8 +4,7 @@ class LevelCard extends React.Component {
     render() {
         return <button disabled={this.props.disable}
                   className={this.props.disable?"button-menu-disable" : "button-menu-default"}
-                  onClick={()=>this.props.onClick(this.props.levelId)}
-                  key={this.props.id}>
+                  onClick={()=>this.props.onClick(this.props.levelId)}>
             {this.props.levelId + 1}
             <span></span>
             <span></span>

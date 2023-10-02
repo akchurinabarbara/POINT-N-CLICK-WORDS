@@ -13,7 +13,6 @@ class MainMenu extends React.Component {
             currentLevel = 0;
         }
 
-        console.log(currentLevel);
         return (
             <div>
               <h2>Выберите уровень</h2>

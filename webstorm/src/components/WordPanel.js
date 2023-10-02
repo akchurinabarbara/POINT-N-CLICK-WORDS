@@ -9,7 +9,7 @@ class LevelPanel extends React.Component {
         let content = [];
         let level = this.props.level;
         for(let i=0; i< level["words"].length; i++){
-            content.push( <div><WordCard word={level["words"][i]["word"]}
+            content.push( <div key={i}><WordCard word={level["words"][i]["word"]}
                                          isRight={level["words"][i]["isRight"]}
                                          rightClick={this.props.rightClick}
                                          key={i}

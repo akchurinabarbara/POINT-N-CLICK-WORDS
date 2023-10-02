@@ -124,7 +124,7 @@ function GameField(props) {
         </div>
         <h2>Выберите карточки со словами, в которых есть буква "{level["question"]}"</h2>
         <WordPanel level={level} rightClick={rightClick}/>
-        <Modal isOpen={modalIsOpen} onRequestClose={exit} className={"modal-window"}>
+        <Modal isOpen={modalIsOpen} onRequestClose={exit} ariaHideApp={false} className={"modal-window"}>
             {
                 isWin?
                     <ModalContent header="Успех!" text="Вы прошли этап!"/>:
